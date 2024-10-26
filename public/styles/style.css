@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+
+    max-height: 20vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.body{
+
+    min-height: 50vh;
+    height: 70vh;
+
+}
+.nav_items{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100vw;
+    list-style-type: none;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.main_title{
+    text-align: center;
+}
+.search_bar{
+
+    min-height: 10vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.city_input{
+
+    
+    width: 300px;
+    min-width: 200px;
+
+    height: 2rem;
+    padding-left: 10px;
+}
+
+.submit_btn{
+    width: 10rem;
+    height: 2rem;
+    margin-left: 5px;
+    min-width: 5rem;
+    
+}
+
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    
+    min-width: 50vw;
+
+    height: 75vh;
+}
+
+.card{
+    /* background-color: yellow; */
+    width: 60vw;
+    min-width: 300px;
+    height: 100%;
+    
+    height: 70vh;
+    border: 1px solid black;
+    padding: 5px;
+
+    text-align: center;
+   
+    padding-top: 10px;
+}
+.current_temp, .weather_name{
+    font-size: 24px;
+}
+
+.small_data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* height: 50%; */
+    justify-content: center;
+    
+}
+
+.small{
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+    height: 100%;
+
+}
+
+.weather_img{
+    height: 10vh;
+    width: 40vw;
+    
+    object-fit:scale-down;
+    /* background-color: red; */
+}
+
+.weather_name{
+    margin-top: 20px;
+}
+
+.weather_form{
+    
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.sm_details{
+    /* background-color: red; */
+    width: 100%;
+}
+
+.footer{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 480px){
+   
+    .weather_form{
+        flex-direction: column;
+        height: 11vh;
+        /* background-color: yellow; */
+        gap: 5px;
+        
+    }
+    /* .weather_img{
+        background-color: red;
+    } */
+    /* .card{
+        background-color: yellow; 
+    } */
+
+
+}
+
